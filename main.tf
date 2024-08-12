@@ -11,7 +11,7 @@ terraform {
 
   backend "s3" {
     bucket = "aline886e3f588"
-    key    = "aws-vm/terraform.tfstate"
+    key    = "aws-vm-user-data/terraform.tfstate"
     region = "us-east-2"
   }
 

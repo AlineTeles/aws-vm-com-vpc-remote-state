@@ -7,3 +7,5 @@ O arquivo terraform.state desse código também foi configurado para ser salvo e
 eu já tinha criado antes, então substitua no arquivo main.tf por uma outra, ou apenas apague
 as linhas 12 a 16.
 
+Neste projeto, é utilizado um USERDATA para rodar um script que cria uma imagem nginx no docker na 
+instancia EC2.
